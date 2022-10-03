@@ -11,9 +11,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(1000)) {
+        /*  let storyboard = UIStoryboard(name: "Mapa", bundle: nil)
+          let vc = storyboard.instantiateViewController(withIdentifier: "MapaSearchViewController") as! MapaSearchViewController
+          self.navigationController?.pushViewController(vc, animated: true)
+        */
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "MapaSearchViewController") as! MapaSearchViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+          // Do any additional setup after loading the view.
+        }
     }
-
 
 }
 

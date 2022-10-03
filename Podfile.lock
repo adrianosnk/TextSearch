@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Differentiator (5.0.0)
+  - HSSearchable (4.2)
+  - ObjectMapper (3.3.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SearchTextField (1.2.4)
+  - SwiftyJSON (5.0.1)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Differentiator
+  - HSSearchable
+  - ObjectMapper (~> 3.3.0)
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxSwift
+  - SearchTextField
+  - SwiftyJSON
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - HSSearchable
+    - ObjectMapper
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SearchTextField
+    - SwiftyJSON
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  HSSearchable: dbc30021c7d85f709eb58d9d25a5c95cdcecbe2b
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 8775eb0b537d805a507d687037c28aa76ff3eb8b
+
+COCOAPODS: 1.10.1
